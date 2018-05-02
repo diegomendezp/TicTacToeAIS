@@ -1,6 +1,8 @@
 package es.codeurjc.ais.tictactoe;
 
-public class Player {
+import java.io.Serializable;
+
+public class Player implements Serializable{
 
 	private String label;
 	private String name;

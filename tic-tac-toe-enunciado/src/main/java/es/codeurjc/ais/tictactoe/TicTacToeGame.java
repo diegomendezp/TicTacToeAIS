@@ -13,6 +13,14 @@ public class TicTacToeGame {
 	static class Cell {
 		volatile boolean active = false;
 		volatile String value;
+		public String getValue() {
+			return value;
+		}
+		public void setValue(String value) {
+			this.value = value;
+		}
+		
+		
 	}
 
 	static class WinnerResult {
