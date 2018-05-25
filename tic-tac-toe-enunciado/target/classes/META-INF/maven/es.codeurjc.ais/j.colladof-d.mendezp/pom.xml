@@ -6,7 +6,7 @@
 	<groupId>es.codeurjc.ais</groupId>
 	<artifactId>j.colladof-d.mendezp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	
 
 	<name>Tic-Tac-Toe</name>
 
