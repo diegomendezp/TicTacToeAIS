@@ -12,13 +12,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
+
 
 public class TicTacToeSystemTest {
 	protected WebDriver driver1, driver2;
 	
 	@BeforeClass
     public static void setupClass() { 
-		System.setProperty("webdriver.chrome.driver","/Users/Diegomendez1997/Documents/GitHub/TicTacToeAIS/tic-tac-toe-enunciado/src/test/java/es/codeurjc/ais/tictactoe/chromedriver");
+		ChromeDriverManager.getInstance().setup();
 		WebApp.start();	
     }
     
