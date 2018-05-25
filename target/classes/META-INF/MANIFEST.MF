@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Tic-Tac-Toe
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Diegomendez1997
+Implementation-Vendor-Id: es.codeurjc.ais
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://projects.spring.io/spring-boot/j.colladof-d
+ .mendezp/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
